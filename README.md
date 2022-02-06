@@ -4,6 +4,8 @@
 
 [nextbook-bht.herokuapp.com](https://nextbook-bht.herokuapp.com/)
 
+## Kopie des Repository von meinem Semesterprojekts
+
 ## Projektbeschreibung
 
 Als Entwicklerteam wollen wir das alte gute Freundschaftsbuch wieder zum Leben bringen, indem wir das Konzept des Freundschaftsbuch digitalisieren. Um das Freundschaftsbuch, wie aus der Grundschulzeit, rumzugeben, wird ein individueller QR-Code erstellt, womit man Zugriff auf den Fragenkatalog bekommt.
