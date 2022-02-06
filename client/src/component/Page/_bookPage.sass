@@ -1,0 +1,93 @@
+@import './../../css/mixins.sass'
+.book-page
+    @include defaultPage
+    padding: 0
+    .wrapper-content
+        @include paperLook
+        width: 85%
+    .frame
+        border-style: dashed
+        border-color: #FDAB8A
+        height: 100%
+        padding: 2em
+    h2
+        font-weight: normal;
+        font-size: 1em
+    p
+        font-weight: bold    
+    .header
+        display: flex;
+        justify-content: space-between
+        align-items: center
+        flex-direction: row
+        @media screen and (max-width: 650px)
+            flex-direction: column
+    .header-content
+        width: 60%
+        @media screen and (max-width: 650px)
+            width: 100%
+    .grid
+        margin: 2em 0
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 1em;
+        justify-items: center
+        @media screen and (max-width: 1000px)
+            grid-template-columns: 1fr 1fr
+        div
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        h2
+            margin-bottom: 1em 
+        p
+            text-align: center
+            display: block;
+            margin: auto;
+        img
+            width: 50%
+            display: block;
+            margin: auto;
+            max-width: 230px
+    .user-answer
+        display: flex
+        justify-content: space-between
+        flex-direction: row
+        flex-wrap: wrap
+        margin: .5em 0
+    .space-between
+        display: flex
+        justify-content: space-between
+        flex-direction: row
+        margin: 2em 0
+        @media screen and (max-width: 1000px)
+            justify-content: center
+            flex-direction: column
+            align-items: center
+        div
+            width: 50%
+            @media screen and (max-width: 1000px)
+                width: 100%
+    .block
+        flex-direction: column
+        max-width: 40%
+        @media screen and (max-width: 1000px)
+            width: 100%!important
+            max-width: 100%
+            
+    .narrow
+        p
+            min-width: 50%
+            border-bottom: 1px solid #000
+            @media screen and (max-width: 1000px)
+                min-width: 100%
+    .wide
+        p
+            min-width: 100%
+            border-bottom: 1px solid #000
+    #gif
+        width: 75%;
+        display: block;
+        margin: auto;
+    

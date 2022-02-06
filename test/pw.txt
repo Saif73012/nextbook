@@ -1,0 +1,175 @@
+[
+    {
+        "_id": "5ed5309ca7c20962b099fd24",
+        "posts": [
+            "5ed539fba7c20962b099fd37",
+            "5ed53a42a7c20962b099fd38",
+            "5ee0388b4941517ca4655438",
+            "5ee03f94093daf086b4aa9fe",
+            "5ee0404992be1f091c252404",
+            "5ee040b3234a5109c7499ec0",
+            "5ee040c8234a5109c7499ec1",
+            "5ee0414a393b8f0aead836fa",
+            "5ee04190393b8f0aead836fb",
+            "5ee041cc7177440bd2940864",
+            "5ee041d37177440bd2940865",
+            "5ee042493e61000d2d4da659",
+            "5ee042503e61000d2d4da65a",
+            "5ee179f8565cf157637c19d8",
+            "5ee179fd565cf157637c19d9",
+            "5ee17a43565cf157637c19da",
+            "5ee17aef34fb4c589e678e40",
+            "5ee17b9834fb4c589e678e41",
+            "5ee17bb835b21559b8c1297f",
+            "5ee17c1ee82aa35a2cad030b",
+            "5ee298e5a2030b0684451564",
+            "5ee2990fa2030b0684451565",
+            "5ee29915a2030b0684451566",
+            "5ee7e052944a2c2d2886cc93",
+            "5ee7e068944a2c2d2886cc94",
+            "5ee7e077944a2c2d2886cc95",
+            "5ee7e0ed944a2c2d2886cc96",
+            "5ee878a75620d21cb2d15ad6"
+        ],
+        "questions": [],
+        "firstName": "Robert",
+        "lastName": "Whitefield",
+        "email": "whitefield.magma12@nextbook.eu",
+        "password": "$2b$10$dcGGbhBfGQY448vgLM0hW.MbxZAZ37U2f4P3FJPwu1MvY36MB03ui",
+        "__v": 0
+    },//--> pw:Magmadon469
+    {
+        "_id": "5ed530fda7c20962b099fd25",
+        "posts": [
+            "5ed53b52a7c20962b099fd39",
+            "5ed53c47a7c20962b099fd3a"
+        ],
+        "questions": [],
+        "firstName": "Vernon",
+        "lastName": "Montaya",
+        "email": "curica.egestas49@nextbook.eu",
+        "password": "$2b$10$/HRu/eUnz0ieGvcB9dWUV.05l4W.g2lkJX5qtH1.WhDDdZbLUXyQW",
+        "__v": 0
+    },//--> pw:LaMexico21
+    {
+        "_id": "5ed53147a7c20962b099fd26",
+        "posts": [
+            "5ed53c84a7c20962b099fd3b",
+            "5ed53cc6a7c20962b099fd3c"
+        ],
+        "questions": [],
+        "firstName": "Louis",
+        "lastName": "Litter",
+        "email": "spectre.lit12@nextbook.eu",
+        "password": "$2b$10$RG9tTaRXdVh/yPTW3Ph/G.gwb5vRnWLsTj6l0ryg0aueOVx.Bo.9S",
+        "__v": 0
+    },//-->  pw:HarveyIsmyFriend62
+    {
+        "_id": "5ed53199a7c20962b099fd27",
+        "posts": [
+            "5ed53d8ca7c20962b099fd3d",
+            "5ed53e30a7c20962b099fd3f"
+        ],
+        "questions": [],
+        "firstName": "Hannah",
+        "lastName": "Rohfeld",
+        "email": "rohfeld12.katze@nextbook.eu",
+        "password": "$2b$10$E4iQ99I4Tc1dG19XZ.ELF.fC4tgcXkbJ7MpeCPo7WXydrDKQ2W.22",
+        "__v": 0
+    },//--> pw:Knabberzeug233
+    {
+        "_id": "5ed5327ca7c20962b099fd28",
+        "posts": [
+            "5ed53feba7c20962b099fd40",
+            "5ed54026a7c20962b099fd41"
+        ],
+        "questions": [],
+        "firstName": "Boris",
+        "lastName": "Knecht",
+        "email": "knecht.bo25@nextbook.eu",
+        "password": "$2b$10$Dr.EWFSyEY1LfuMBBu3e1OEuqkA61zgqDqonRZke2q/b3/qxA9WMq",
+        "__v": 0
+    },//--> pw:echtoris124
+    {
+        "_id": "5ed53324a7c20962b099fd2d",
+        "posts": [
+            "5ed54073a7c20962b099fd42",
+            "5ed540bba7c20962b099fd43"
+        ],
+        "questions": [],
+        "firstName": "Tom",
+        "lastName": "Müller",
+        "email": "mueller12tom@nextbook.eu",
+        "password": "$2b$10$SVPExdHqLw3E977is.0meODoIwoKAxXtgnfD8SQeDhlGJLn9mJ.4O",
+        "__v": 0
+    },//--> pw:MiaSanMüller889
+    {
+        "_id": "5ed53385a7c20962b099fd2f",
+        "posts": [
+            "5ed542d1a7c20962b099fd44",
+            "5ed54338a7c20962b099fd45"
+        ],
+        "questions": [],
+        "firstName": "Tyler",
+        "lastName": "Koch",
+        "email": "koch.ty32@nextbook.eu",
+        "password": "$2b$10$bnbnDry7uEH.snGxlrZecO3wvK7nEoFf8Vm35gjTrCTThnH9kCd/G",
+        "__v": 0
+    },//--> pw:T1BeastDogshit1212
+    {
+        "_id": "5ed53412a7c20962b099fd30",
+        "posts": [
+            "5ed543e0a7c20962b099fd46",
+            "5ed54419a7c20962b099fd47"
+        ],
+        "questions": [],
+        "firstName": "Marvin",
+        "lastName": "Smith",
+        "email": "smith.jr21@nextbook.eu",
+        "password": "$2b$10$TCeHL7zNs6qSzYTjIOBXwe0CBkowXTT0yvTJH0RE5RN7u6kgIAI2i",
+        "__v": 0
+    },//--> pw:WillISmithU5696
+    {
+        "_id": "5ed534e4a7c20962b099fd31",
+        "posts": [
+            "5ed5446fa7c20962b099fd48",
+            "5ed54498a7c20962b099fd49"
+        ],
+        "questions": [],
+        "firstName": "Peter",
+        "lastName": "Chadwill",
+        "email": "chadwills.world21@nextbook.eu",
+        "password": "$2b$10$Z62QpCBGrPZ9dr2.nd3hwugkdtzsO31CcNNLbG3yK0Ac7D5dhMRdW",
+        "__v": 0
+    },//--> pw:AliceInTheWonderland21443
+    {
+        "_id": "5ee87e8bf18c672257692879",
+        "posts": [],
+        "questions": [],
+        "firstName": "Otto",
+        "lastName": "Apitester",
+        "email": "otto.o.apitester@nextbook.eu",
+        "password": "$2b$10$SW7DNbK8259IF.V33Fv27ujmOabGkR..8B2/FtWfX6bENHFgMBFGe",
+        "__v": 0
+    },
+    {
+        "_id": "5ee8873f453a8e27ab263535",
+        "posts": [],
+        "questions": [],
+        "firstName": "Otto",
+        "lastName": "Apitester",
+        "email": "otto.a.apitester@nextbook.eu",
+        "password": "$2b$10$TTMM3Cr40mIzlcBsuYPwAOF9w4RTeozL.PiWWBrw126YzQdQMC6kq",
+        "__v": 0
+    },//--> pw:sicher123
+    {
+        "_id": "5ee89ccf2d2015333995383c",
+        "posts": [],
+        "questions": [],
+        "email": "whitefield.magma122@nextbook.eu",
+        "password": "$2b$10$8S.SeWQnafyePe04INLuCu610s296lqcOJtDRNLR5n/vnI4vwF4Yq",
+        "firstName": "Klaus",
+        "__v": 0,
+        "lastName": "Tobias"
+    }//--> pw:Magmadon469
+]

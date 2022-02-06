@@ -1,0 +1,8 @@
+# production
+/client/build
+
+# .env
+node_modules
+
+# nextbook-bht
+nextbook-bht

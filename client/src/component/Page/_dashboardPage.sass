@@ -1,0 +1,48 @@
+@import './../../css/mixins.sass'
+.dashboard-page
+  @include defaultPage
+  padding: 0
+  @media screen and (max-width: 1000px)
+    padding: 6em 3%
+  .dashboard-content-div
+    @include paperLook
+  .content-pair
+    display: flex
+    margin: 30px 0
+    justify-content: space-evenly
+  .date
+    text-align: right
+    font-weight: normal
+  .profil-cards
+    display: flex;
+    justify-content: space-evenly
+    flex-direction: row
+    flex-wrap: wrap
+    @media screen and (max-width: 940px)
+      flex-direction: column
+      align-items: center
+  h1
+    text-align: center
+    font-weight: bold
+    margin: 0 0 50px 0
+  h2
+    text-align: left
+    font-weight: normal
+    padding-left: 25px
+  h3
+    text-align: left
+    font-weight: normal
+  .red
+    color: red
+    font-size: 1em
+  main
+    display: flex
+    justify-content: space-between
+    align-items: flex-start
+  .filter-wrapper
+    display: flex
+    margin: 30px 0
+    justify-content: space-evenly
+    position: relative
+
+    

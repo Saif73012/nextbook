@@ -1,0 +1,59 @@
+@import './../../css/variables.sass'
+//overwriten material-ui styles
+.MuiFab-primary
+    position: fixed!important
+    bottom: 11%;
+    right: 3%;
+    z-index: 100;
+    background-color: $light-orange!important
+// drawer
+.drawer
+    background-color: $light-orange
+    color: #333333
+    position: fixed;
+    bottom: 0;
+    width: 100vw
+    z-index: 1000;
+    margin: -7%;
+    padding: 8% 0;
+    transition: 1s all ease
+.drawer-wrapper
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 0 10%;
+    @media screen and (max-width: 450px)
+        flex-direction: column
+.drawer-content-wrapper
+    width: 100%
+.drawer-image-wrapper
+    padding-left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    @media screen and (max-width: 450px)
+        margin-top: 5%;
+.drawer-header
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    margin-bottom: 1em
+    h2
+        padding-left: 0!important
+        font-weight: 600!important
+    button
+        letter-spacing: 0.02857em;
+        text-transform: uppercase;
+        font-size: 0.875rem;
+        border: none
+        background-color: transparent
+        color: #fff
+
+.hide
+    bottom: -100%!important
+.show
+    bottom: 0;
+
+

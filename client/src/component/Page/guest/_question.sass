@@ -1,0 +1,64 @@
+@import './../../../css/variables.sass'
+
+.guest-wrapper
+    height: 100%
+    display: flex
+    justify-content: space-between
+    align-items: center
+    flex-direction: column
+    h1
+        margin-top: 10%
+    .content-wrapper
+        height: 100%
+        width: 100%
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
+        form 
+            margin-bottom: 10%
+            display: flex
+            flex-direction: column
+        .gender-wrapper
+            margin-bottom: 5% 
+            flex-direction: row
+        .radiobox-form
+            flex-direction: row
+    #diversePicture
+        width: 100%;
+        max-width: 300px;
+    #malePicture, #femalePicture
+        width: 100%
+    #male
+        margin-right: 6em;
+    .radiobox-form
+        flex-wrap: wrap
+    .radiobox
+        margin: 1em
+#successImg
+    width: 45%;
+    display: block;
+    margin: auto;
+    max-width: 450px;
+    min-width: 265px;
+#giphy
+    max-width: 450px
+    width: 60%
+    max-height: 230px;
+    display: block;
+    margin: auto;
+.draw-box
+    border: 3px dashed $nextbook-blue
+    @media screen and (max-width: 1000px)
+        margin: auto
+.draw-wrapper
+    h1
+        margin: 0!important
+.third-btn
+    font-size: 15px;
+    background-color: transparent;
+    border: 1px solid red;
+    padding: 6px;
+.guestGif-wrapper
+    form
+        margin-bottom: 1%!important

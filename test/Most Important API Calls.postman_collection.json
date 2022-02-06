@@ -1,0 +1,311 @@
+{
+	"info": {
+		"_postman_id": "6ba1fd60-e21a-4ece-b053-b0f45c953ca3",
+		"name": "Most Important API Calls",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "User Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"email\" : \"whitefield.magma12@nextbook.eu\",\n\t\"password\" : \"Magmadon469\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9000/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Admin Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"email\" : \"admin@nextbook.eu\",\n\t\"password\" : \"password\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9000/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create User",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNWVkNTMwOWNhN2MyMDk2MmIwOTlmZDI0IiwiZnJpZW5kIjpmYWxzZSwiYWRtaW4iOmZhbHNlLCJpYXQiOjE1OTE3NDI4NzZ9.AiXD1k4NDnimFW8qD9mIvWRFzOn2FIA3XLAzOop3t-g"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\n        \"_id\": \"6ed5304ba7c20962b099fd23\",\n        \"posts\": [],\n        \"questions\": [],\n        \"firstName\": \"Otto\",\n        \"lastName\": \"Apitester\",\n        \"email\": \"otto.apitester@nextbook.eu\",\n        \"password\": \"sicher123\"\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9000/api/v1/user",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"api",
+						"v1",
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Generate Token for Friends",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNWVkNTMwOWNhN2MyMDk2MmIwOTlmZDI0IiwiZnJpZW5kIjpmYWxzZSwiYWRtaW4iOmZhbHNlLCJpYXQiOjE1OTE3NDI4NzZ9.AiXD1k4NDnimFW8qD9mIvWRFzOn2FIA3XLAzOop3t-g"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:9000/token",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create post as a friend",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNWVkNTMwOWNhN2MyMDk2MmIwOTlmZDI0IiwiZnJpZW5kIjp0cnVlLCJhZG1pbiI6ZmFsc2UsImlhdCI6MTU5MTc1NTEzNH0.w6K1pTY0qRsytsxB3LTPlJynmUquZB6yp2EU8ifBuZE"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\n        \"name\": \"Viktor Hermann\",\n        \"owner\" : \" -\",\n        \"city\": \"Berlin\",\n        \"birth\": \"1989-05-26T00:00:00.000Z\",\n        \"gender\": \"Male\",\n        \"size\": 178,\n        \"eyes\": \"brown\",\n        \"customQuestions\": []\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9000/api/v1/post",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"api",
+						"v1",
+						"post"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List posts by date",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNWVkNTMwOWNhN2MyMDk2MmIwOTlmZDI0IiwiZnJpZW5kIjpmYWxzZSwiYWRtaW4iOmZhbHNlLCJpYXQiOjE1OTE3NDI4NzZ9.AiXD1k4NDnimFW8qD9mIvWRFzOn2FIA3XLAzOop3t-g"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:9000/api/v1/post?query={\"owner\":\"5ed5309ca7c20962b099fd24\"}&sort=date",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"api",
+						"v1",
+						"post"
+					],
+					"query": [
+						{
+							"key": "query",
+							"value": "{\"owner\":\"5ed5309ca7c20962b099fd24\"}"
+						},
+						{
+							"key": "sort",
+							"value": "date"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Show single post",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNWVkNTMwOWNhN2MyMDk2MmIwOTlmZDI0IiwiZnJpZW5kIjpmYWxzZSwiYWRtaW4iOmZhbHNlLCJpYXQiOjE1OTE3NDI4NzZ9.AiXD1k4NDnimFW8qD9mIvWRFzOn2FIA3XLAzOop3t-g"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:9000/api/v1/post/5ed539fba7c20962b099fd37",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"api",
+						"v1",
+						"post",
+						"5ed539fba7c20962b099fd37"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Show user data",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNWVkNTMwOWNhN2MyMDk2MmIwOTlmZDI0IiwiZnJpZW5kIjpmYWxzZSwiYWRtaW4iOmZhbHNlLCJpYXQiOjE1OTE3NDI4NzZ9.AiXD1k4NDnimFW8qD9mIvWRFzOn2FIA3XLAzOop3t-g"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:9000/api/v1/user/5ed5309ca7c20962b099fd24",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"api",
+						"v1",
+						"user",
+						"5ed5309ca7c20962b099fd24"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Show user data with populated posts",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNWVkNTMwOWNhN2MyMDk2MmIwOTlmZDI0IiwiZnJpZW5kIjpmYWxzZSwiYWRtaW4iOmZhbHNlLCJpYXQiOjE1OTE3NDI4NzZ9.AiXD1k4NDnimFW8qD9mIvWRFzOn2FIA3XLAzOop3t-g"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:9000/api/v1/user/5ed5309ca7c20962b099fd24?populate=posts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"api",
+						"v1",
+						"user",
+						"5ed5309ca7c20962b099fd24"
+					],
+					"query": [
+						{
+							"key": "populate",
+							"value": "posts"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

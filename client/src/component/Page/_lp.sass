@@ -1,0 +1,63 @@
+@import './../../css/variables.sass'
+
+.lp
+    min-height: 100vh
+    min-width: 100vw
+    background-image: url('../../assets/img/bg-muster-lp.svg')
+    background-size: contain
+    background-repeat: repeat-y
+    background-position: center
+    padding: 6em 20%
+    transition: all .5s ease
+    @media screen and (max-width: 1000px)
+        padding: 6em 6em
+    @media screen and (max-width: 650px)
+        padding: 6em 2em
+    .dialog-wrapper
+        display: flex
+        justify-content: space-between
+        flex-direction: row
+        margin-bottom: 15%
+        transition: all 1s ease
+        @media screen and (max-width: 650px)
+            flex-direction: column
+            align-items: center
+        img
+            width: 45%
+            max-width: 550px
+            max-height: 400px;
+            transition: all .5s ease
+            @media screen and (max-width: 650px)
+                width: 100%
+                max-width: 333px
+                max-height: 230px
+    .dialog-wrapper:nth-child(even)
+        flex-direction: row-reverse
+        transition: all 1s ease
+        @media screen and (max-width: 650px)
+            flex-direction: column
+            align-items: center
+    p
+        font-size: 2em
+        margin-bottom: 5em
+        @media screen and (max-width: 650px)
+            font-size: 1.2em
+    .center
+        text-align: center
+    figure
+        text-align: center
+        margin: 15em 0
+        img
+            width: 50%
+            @media screen and (max-width: 650px)
+                width: 100%
+    figcaption
+        font-size: 2em
+        margin-top: -1em
+        @media screen and (max-width: 650px)
+            font-size: 1.4em
+
+    h1
+        font-size: calc(2.5vmax + 50%);
+        z-index: 1
+        max-width: 430px;

@@ -1,0 +1,51 @@
+@import './../../css/variables.sass'
+.dashboardBanner-div
+  display: flex
+  position: fixed
+  top: 0
+  right: 30px
+  background-color: #fdab8a
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 93%, 0 100%)
+  width: 25%
+  @media screen and (max-width: 1000px)
+    display: none
+.profile-banner-card-div
+  display: flex
+  align-items: center
+  flex-direction: column
+  height: 96vh
+  width: 100%
+  justify-content: center
+  h4
+    font-weight: bold;
+    font-size: 1.5em
+    margin-top: 1.5em
+
+#copyText
+  display: none
+
+.MuiDialog-paperWidthSm
+  background-color: #fdab8a!important
+
+.MuiTypography-body1, .MuiTypography-root, .MuiTypography-h6
+  font-family: 'Halant', serif !important
+  font-weight: bold!important
+  color: #333333!important
+.MuiTypography-h6
+  font-weight: bolder!important
+#dialog-content-wrapper
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    @media screen and (max-width: 600px)
+      flex-direction: column;
+      align-items: center;
+#dialog-text-wrapper
+  width: 80%
+  @media screen and (max-width: 600px)
+    text-align: center
+    width: 100%
+.MuiButton-textPrimary
+  color: #fff !important
+  font-family: 'Halant', serif !important
+  font-weight: normal!important

@@ -1,0 +1,58 @@
+nav:not(.mobile-nav)
+  position: fixed
+  left: 0
+  top: 40%
+  z-index: 10
+  li
+    margin: 1em 0
+    transform: translateX(-174px)
+    transition: transform .5s ease
+    &:hover
+      
+      transform: translateX(-5px)
+  a
+    text-decoration: none
+  button 
+    cursor: pointer
+    width: 100%
+    min-width: 240px
+    background-color: #9DCAFF
+    border: none
+    outline: none
+    border-radius: 5px
+    color: #fff
+    display: flex
+    justify-content: space-between
+    padding: 8px 25px
+    span
+      font-size: 1.7em
+// styling for the mobile nav
+.mobile-nav
+  position: fixed;
+  bottom: 0px;
+  width: 100vw;
+  left: 0;
+  z-index: 10
+  ul
+    display: flex
+    justify-content: space-around;
+    list-style: none;
+    background-color: #9dcaff;
+    border-radius: 11px;
+    margin: 0 3%;
+    padding: 10px;
+    margin-bottom: 3%;
+  button
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    border: none;
+    background: none;
+    align-items: center
+    img
+      height: 25px
+  a
+    text-decoration: none
+  span
+    margin-top: 4px
+    font-size: 1.1em 
